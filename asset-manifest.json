@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/lmc-deliverable-gh/static/css/main.17d195d4.chunk.css",
+    "main.js": "/lmc-deliverable-gh/static/js/main.8a97b816.chunk.js",
+    "main.js.map": "/lmc-deliverable-gh/static/js/main.8a97b816.chunk.js.map",
+    "runtime-main.js": "/lmc-deliverable-gh/static/js/runtime-main.840721c2.js",
+    "runtime-main.js.map": "/lmc-deliverable-gh/static/js/runtime-main.840721c2.js.map",
+    "static/js/2.73a67429.chunk.js": "/lmc-deliverable-gh/static/js/2.73a67429.chunk.js",
+    "static/js/2.73a67429.chunk.js.map": "/lmc-deliverable-gh/static/js/2.73a67429.chunk.js.map",
+    "index.html": "/lmc-deliverable-gh/index.html",
+    "static/css/main.17d195d4.chunk.css.map": "/lmc-deliverable-gh/static/css/main.17d195d4.chunk.css.map",
+    "static/js/2.73a67429.chunk.js.LICENSE.txt": "/lmc-deliverable-gh/static/js/2.73a67429.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.840721c2.js",
+    "static/js/2.73a67429.chunk.js",
+    "static/css/main.17d195d4.chunk.css",
+    "static/js/main.8a97b816.chunk.js"
+  ]
+}
