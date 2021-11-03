@@ -35,7 +35,7 @@ function Navbar() {
     <>
       <IconContext.Provider value={{ color: '#7DE446' }}>
         <nav className='navbar'>
-          <div className='navbar-container container'>
+          <div className='navbar-container second-container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
               <TiWeatherPartlySunny className='navbar-icon' />
               LMC Deliverable
@@ -65,6 +65,15 @@ function Navbar() {
                   onClick={closeMobileMenu}
                 >
                   Projects
+                </Link>
+              </li>
+              <li className='nav-item'>
+                <Link
+                  to='/contribute'
+                  className='nav-links'
+                  onClick={closeMobileMenu}
+                >
+                  Contribute
                 </Link>
               </li>
               <li className='nav-btn'>

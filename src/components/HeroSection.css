@@ -18,10 +18,19 @@
   
   .col {
     margin-bottom: 15px;
-    padding-right: 15px;
+    /* padding-right: 15px; */
     padding-left: 15px;
     flex: 1;
-    max-width: 50%;
+    max-width: 90%;
+    flex-basis: 50%;
+  }
+
+  .img-col {
+    margin-bottom: 15px;
+    padding-right: 15px;
+    /* padding-left: 15px; */
+    flex: 1;
+    max-width: 10%;
     flex-basis: 50%;
   }
   

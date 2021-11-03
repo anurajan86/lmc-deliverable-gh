@@ -51,7 +51,7 @@ function HeroSection({
                 </Link>
               </div>
             </div>
-            <div className='col'>
+            <div className='img-col'>
               <div className='home__hero-img-wrapper'>
                 {/* <img src={img} alt={alt} className='home__hero-img' /> */}
                 <TiTree className='navbar-icon' size={100} />

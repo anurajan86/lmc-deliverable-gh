@@ -6,6 +6,7 @@ import Projects from './components/pages/Projects/Projects';
 import LearnMore from './components/pages/LearnMore/LearnMore';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Contribute from './components/pages/Contribute/Contribute';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/' exact component={Home} />
         <Route path='/about' component={About} />
         <Route path='/projects' component={Projects} />
+        <Route path='/contribute' component={Contribute} />
         <Route path='/learn-more' component={LearnMore} />
       </Switch>
     </Router>

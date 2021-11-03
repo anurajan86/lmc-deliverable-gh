@@ -7,7 +7,9 @@ function About() {
   return (
     <>
       {/* <Pricing /> */}
-      <HeroSection {...homeObjOne} />
+        <HeroSection {...homeObjOne} />
+        
+
       {/* <HeroSection {...homeObjThree} /> */}
     </>
   );
