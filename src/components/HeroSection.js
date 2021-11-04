@@ -2,7 +2,7 @@ import React from 'react';
 import './HeroSection.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
-import { TiWeatherPartlySunny, TiTree } from 'react-icons/ti';
+import { TiWeatherPartlySunny, TiTree, TiWorldOutline } from 'react-icons/ti';
 
 function HeroSection({
   lightBg,
