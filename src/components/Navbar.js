@@ -76,6 +76,15 @@ function Navbar() {
                   Contribute
                 </Link>
               </li>
+              <li className='nav-item'>
+                <Link
+                  to='/blog'
+                  className='nav-links'
+                  onClick={closeMobileMenu}
+                >
+                  Blog
+                </Link>
+              </li>
               <li className='nav-btn'>
                 {button ? (
                   <Link to='/learn-more' className='btn-link'>
