@@ -38,7 +38,7 @@ function Navbar() {
           <div className='navbar-container second-container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
               <TiWeatherPartlySunny className='navbar-icon' />
-              Restoring Bioversity
+              LMC Deliverable
             </Link>
             <div className='menu-icon' onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
@@ -87,11 +87,11 @@ function Navbar() {
               </li>
               <li className='nav-btn'>
                 {button ? (
-                  <Link to='/learn-more' className='btn-link'>
-                    <Button buttonStyle='btn--outline'>Give Us Feedback!</Button>
+                  <Link to='/survey' className='btn-link'>
+                    <Button buttonStyle='btn--outline'>Give Us Feedback</Button>
                   </Link>
                 ) : (
-                  <Link to='/learn-more' className='btn-link'>
+                  <Link to='/survey' className='btn-link'>
                     <Button
                       buttonStyle='btn--outline'
                       buttonSize='btn--mobile'

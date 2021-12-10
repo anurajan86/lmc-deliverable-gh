@@ -8,7 +8,7 @@ function Projects() {
   return (
     <>
       <HeroSection {...homeObjOne} />
-      <div style={{marginTop:'-20em'}}>
+      <div style={{marginTop:'-15em'}}>
       <HeroSection {...homeObjTwo} />
       </div>
     </>

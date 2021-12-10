@@ -1,3 +1,9 @@
+.seeButton {
+  display:hidden
+}
+.noButton {
+  display: none
+}
 .home__hero-section {
     color: #fff;
     padding: 160px 0;

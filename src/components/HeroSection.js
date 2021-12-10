@@ -12,9 +12,11 @@ function HeroSection({
   headline,
   description,
   buttonLabel,
+  goto,
   img,
   alt,
-  imgStart
+  imgStart,
+  buttonBool
 }) {
   return (
     <>
@@ -44,7 +46,9 @@ function HeroSection({
                 >
                   {description}
                 </p>
-                <Link to='/learn-more'>
+                <Link to={goto} className  ={ buttonBool
+                      ? 'seeButton'
+                      : 'noButton'}>
                   <Button buttonSize='btn--wide' buttonColor='blue'>
                     {buttonLabel}
                   </Button>

@@ -8,8 +8,8 @@ function Contribute() {
   return (
     <>
     <HeroSection {...homeObjTwo} />
- 
-     <HeroSection {...homeObjOne} />
+    <div style={{marginTop:'-15em'}}></div>
+    <HeroSection {...homeObjOne} />
      
     </>
   );

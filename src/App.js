@@ -21,6 +21,10 @@ function App() {
         <Route path='/contribute' component={Contribute} />
         <Route path='/blog' component={Blog} />
         <Route path='/learn-more' component={LearnMore} />
+        <Route path='/survey' component={() => { 
+     window.location.href = 'https://gatech.co1.qualtrics.com/jfe/form/SV_1TxWbG70kCW8tkG'; 
+     return null;
+}}/>
       </Switch>
     </Router>
   );

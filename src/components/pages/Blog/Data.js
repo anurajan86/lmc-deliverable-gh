@@ -9,7 +9,8 @@ export const homeObjOne = {
     buttonLabel: 'Learn More',
     imgStart: '',
     // img: 'images/svg-1.svg',
-    alt: 'Icon'
+    alt: 'Icon',
+    buttonBool: false
   };
 
 export const homeObjTwo = {
@@ -24,5 +25,6 @@ export const homeObjTwo = {
     buttonLabel: 'Learn More',
     imgStart: '',
     // img: 'images/svg-5.svg',
-    alt: 'Vault'
+    alt: 'Vault',
+    buttonBool:false
   };
