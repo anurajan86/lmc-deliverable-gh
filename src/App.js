@@ -7,6 +7,7 @@ import LearnMore from './components/pages/LearnMore/LearnMore';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Contribute from './components/pages/Contribute/Contribute';
+import Blog from './components/pages/Blog/Blog';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/about' component={About} />
         <Route path='/projects' component={Projects} />
         <Route path='/contribute' component={Contribute} />
+        <Route path='/blog' component={Blog} />
         <Route path='/learn-more' component={LearnMore} />
       </Switch>
     </Router>
