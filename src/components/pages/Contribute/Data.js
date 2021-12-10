@@ -11,3 +11,17 @@ export const homeObjOne = {
     // img: 'images/svg-1.svg',
     alt: 'Icon'
   };
+
+export const homeObjTwo = {
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'How can this affect me?',
+    headline: 'Here is How These Projects can Help you',
+    description:
+      'These projects create more jobs in your community. By hiring local workers, we help you and your community.  They also eliminate major problems such as flooding and pollution. They keep you and your community healthier. Rehabitation has also been shown to increase the overall wellbeing of communities like yours!',
+    buttonLabel: 'Learn More',
+    // imgStart: '',
+    // img: 'images/svg-1.svg',
+    // alt: 'Icon'
+  };
